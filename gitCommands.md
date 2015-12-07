@@ -48,3 +48,10 @@
 - Press d to cut (or y to copy).
 - Move to where you would like to paste.
 - Press P to paste before the cursor, or p to paste after.
+
+## Window Split
+- Ctrl+W, S for horizontal splitting
+- Ctrl+W, V for vertical splitting
+- Ctrl+W, Q to close one
+- Ctrl+W, Ctrl+W to switch between windows
+- Ctrl+W, J (xor K, H, L) to switch to adj
