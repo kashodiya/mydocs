@@ -12,14 +12,12 @@
 - nG             move cursor to line n
 - control-f      scroll forward one screen
 - control-b      scroll backward one screen
-
 - i              insert to left of current cursor position (end with ESC)
 - a              append to right of current cursor position (end with ESC)
 - dw             delete current word (end with ESC)
 - cw             change current word (end with ESC)
 - r              change current character
 - ~              change case (upper-, lower-) of current character
-
 - dd             delete current line
 - D              delete portion of current line to right of the cursor
 - x              delete current character
@@ -27,32 +25,20 @@
 - d`a            delete everything from the marked position to here
 - `a             go back to the marked position
 - p              dump out at current place your last deletion (``paste'')
-
-- u              undo the last command 
-- .              repeat the last command 
-
+- u              undo the last command
+- .              repeat the last command
 - J              combine (``join'') next line with this one
-     
 - :w             write file to disk, stay in vi
 - :q!            quit VI, do not write file to disk,
 - ZZ             write file to disk, quit vi
-
-- :r filename    read in a copy of the specified file to the current
-                    buffer
-     
+- :r filename    read in a copy of the specified file to the current buffer
 - /string        search forward for string (end with Enter)
 - ?string        search backward for string (end with Enter)
 - n              repeat the last search (``next search'')
-     
 - :s/s1/s2       replace (``substitute'') (the first) s1 in this line by s2
-- :lr/s/s1/s2/g  replace all instances of s1 in the line range lr by s2
-                    (lr is of form `a,b', where a and b are either explicit
-                    line numbers, or . (current line) or $ (last line)
-- :map k s       map the key k to a string of vi commands s (see below)
-- :abb s1 s2     expand the string s1 in append/insert mode to a string 
-                    s2 (see below)
-- %              go to the "mate," if one exists, of this parenthesis
-               or brace or bracket (very useful for programmers!)
+- :lr/s/s1/s2/g  replace all instances of s1 in the line range lr by s2 (lr is of form `a,b', where a and b are either explicit line numbers, or . (current line) or $ (last line)
+- :map k s       map the key k to a string of vi commands s (see below) - :abb s1 s2     expand the string s1 in append/insert mode to a string s2 (see below)
+- %              go to the "mate," if one exists, of this parenthesis or brace or bracket (very useful for programmers!)
 
 ## Cut and paste:
 
